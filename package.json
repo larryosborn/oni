@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": "true",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "release": "standard-version"
   },
   "author": "Larry Osborn <larry@cornsyrup.org>",
   "homepage": "https://github.com/larryosborn/oni",
@@ -19,6 +21,7 @@
     "@slack/client": "^4.8.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "standard-version": "^4.4.0"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "oni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Larry Osborn <larry@cornsyrup.org>",
+  "homepage": "https://github.com/larryosborn/oni",
+  "bugs": "https://github.com/larryosborn/oni/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/larryosborn/oni.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
